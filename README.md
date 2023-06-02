@@ -2,7 +2,8 @@
 The files in this repository are a part of my first semester modules. The coursework I had worked on in Semester 1 thus far.
 1. Data analysis - an analysis on the travel patterns of the London population using the underground services. 
 2. Regression - A regression model to show the current condition of the bridges using the 5 predictor variables which include categorical variables, where the target variable is the condition.
-3. Audio Classification as indoor/outdoor signals - The classification model's accuracy obtained using the random forests classifier was 56.13%.
+3. K-Means algorithm from scratch with debugging and visualisation using the inbuilt Iris dataset. 
+4. Audio Classification as indoor/outdoor signals - The classification model's accuracy obtained using the random forests classifier was 56.13%.
 Throughout the project,the processed audio data had its relevant features extracted. However, the results indicated that the current set of features may not be sufficient to accurately differentiate between indoor and outdoor audio signals.
 - The project highlights the need for further exploration and extraction of more suitable features to address this classification problem effectively. By enhancing the feature extraction process, it is expected that the accuracy of the classification model can be improved, leading to more accurate identification of indoor and outdoor audio classes.
 4. Audio Classification for gender (here, Male/Female): This pipeline consists of splitting the dataset into 70%- training set and a 30% of test set. This is done so to first train the model using the right parameters. Furthermore, by using the training set a grid search cross validation is to be performed to tune the hyperparameters of a Random Forest Classifier. The best hyper parameters obtained are then specifically used to fit the training dataset onto the model and then predict the accuracy of the test set. 
