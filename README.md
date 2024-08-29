@@ -16,3 +16,4 @@ Throughout the project,the processed audio data had its relevant features extrac
 - The backbone class includes the block and a classifier layer, which consists of MLP and activation layers. The network takes an input tensor and outputs a tensor with the specified number of classes; in this case, 10.
 - The forward function of the backbone class passes the input tensor through the block to produce an output tensor, which is then passed through the classifier layer which consists of the spatial average pool at the input of the block for the 126 input channels into the classifier, to produce the final output tensor.
 
+8. Data Analysis in Excel - Analysing sales data by answering business questions to identify user retention for subscription types and using scenario analysis to achieve specific business upselling goals. This file gives examples of using forecasting in excel to forecast sales for a period of 12 months with a confidence interval of 90%. 
